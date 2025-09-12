@@ -2,7 +2,7 @@
 ## Requirements:
 - Windows 10 or later
 - Python3
-- win32com.client
+- win32com.client Python Library
 - Outlook
 - OS User-tied Outlook Account
 ## Usage Guide:
