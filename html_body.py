@@ -69,8 +69,8 @@ class HTML_BODY:
                     <p><b>Call 913-262-2600 or email <u>Sumya@iAMLearning2Fly.com</u> to schedule a tour or field trip today!</b></p>
                     <p>We hope you will join us in educating and empowering the adults of tomorrow!</p>
                     <p>With gratitude,</p>
-                    <p><b>Kai Achen (He/They)</b><br>
-                    <b>Aerial Yoga Instructor | kai@iamlearning2fly.com |  (913)-403-7000</b><br>
+                    <p><b>Kai Achen</b><br>
+                    <b>Aerial Silks Instructor | kai@iamlearning2fly.com |  (913) 403-7000</b><br>
                     <b>Sign up for all classes, parties, and events at www.iAMLearning2Fly.com</b><br>
                     <b>5800 Outlook St, Mission KS 66202</b><br></p>
 
