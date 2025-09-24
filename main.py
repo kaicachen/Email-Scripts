@@ -45,17 +45,24 @@ def check_overlap(list_1, list_2):
         for row in reader2:
            set_2.add(row[column_index])
 
-    overlap_set = set_1.intersection(set_2) # Find Intersection of Sets
+    intersection_set = set_1.intersection(set_2) # Find Intersection of Sets (A ∩ B)
+    difference_set = set_1.difference(set_2) # Find Difference of Sets (A ∩ B')
 
-    percent_overlap_set_1 = round((((len(overlap_set) / len(set_1))) * 100), 2) # Calculate Overlap Percentages
+    percent_overlap_set_1 = round((((len(intersection_set) / len(set_1))) * 100), 2) # Calculate Overlap Percentages
     print(f"Percent Overlap Set 1: {percent_overlap_set_1}%")
-    percent_overlap_set_2 = round((((len(overlap_set) / len(set_2))) * 100), 2)
+    percent_overlap_set_2 = round((((len(intersection_set) / len(set_2))) * 100), 2)
     print(f"Percent Overlap Set 2: {percent_overlap_set_2}%")
 
-    with open("overlap_results.csv", "w", newline='') as f3: # Write Intersection to CSV
+    with open("intersection_set.csv", "w", newline='') as f3: # Write (A ∩ B) to CSV
         writer1 = csv.writer(f3)
-        for item in overlap_set:
+        for item in intersection_set:
             writer1.writerow([item])
+    
+    with open("difference_set.csv", "w", newline='') as f4: # Write (A ∩ B') to CSV
+        writer2 = csv.writer(f4)
+        for item in difference_set:
+            writer2.writerow([item])
+
 
 def main():
     quit_program = False
@@ -73,12 +80,14 @@ def main():
             print("Emails Sent")
         elif selection == "3":
             check_overlap("overlap1.csv", "overlap2.csv")
-            print("Overlap Calculated and Sent to overlap_results.csv")
+            print("Overlap Calculated and Sent to intersection_set.csv and difference_set.csv")
         elif selection == "Q" or selection == "q":
             print("Quitting Program")
             quit_program = True
         else:
             print("Invalid Selection")
+
+
 
 if __name__ == "__main__":
     main()

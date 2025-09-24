@@ -66,6 +66,7 @@ class HTML_BODY:
                     <li>Team building acro-yoga exercises teaching communication and teamwork.</li>
                     <li>Art project to inspire creativity. Every child is an artist!</li>
                     </ul>
+                    <p>Prices for field trips range from <b>$10-$21 per child</b>, depending on the number of students and length of event.</p>
                     <p><b>Call 913-262-2600 or email <u>Sumya@iAMLearning2Fly.com</u> to schedule a tour or field trip today!</b></p>
                     <p>We hope you will join us in educating and empowering the adults of tomorrow!</p>
                     <p>With gratitude,</p>
