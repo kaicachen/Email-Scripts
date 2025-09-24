@@ -71,6 +71,7 @@ def main():
         print("1. Send Emails to emails.csv")
         print("2. Send Emails to test.csv")
         print("3. Check Overlap of Two CSV Lists")
+        print("Q/q. Quit Program")
         selection = input("Enter Selection Number: ")
         if selection == "1":
             send_emails("emails.csv")

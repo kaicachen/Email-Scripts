@@ -6,11 +6,28 @@
 - Outlook
 - OS User-tied Outlook Account
 ## Usage Guide:
+### To Send Emails:
 1. Create local file in Email Scripts root folder called "emails.csv"
 2. Write/Paste/Load emails into "emails.csv", with each email on a separate line and followed by a comma
 3. Check that the email contents are as desired: (Subject and Attachments can be changed in main.send_emails(), Body can be changed in html_body.text)
-4. Run main.py -> Console will output when emails successfully sent to Outlook "Outbox" folder
-5. Check Outlook "Outbox" folder to ensure that emails have been sent
+4. Run main.py -> Console will prompt with console input to select a function
+5. Type "1" into the console and press enter. Console will output when emails successfully sent to Outlook "Outbox" folder
+6. Check Outlook "Outbox" folder to ensure that emails have been sent
+### To Test Sending Emails:
+1. Create local file in Email Scripts root folder called "test.csv"
+2. Write/Paste/Load emails into "test.csv", with each email on a separate line and followed by a comma (Should be an email address or addressses that you have access to)
+3. Check that the email contents are as desired: (Subject and Attachments can be changed in main.send_emails(), Body can be changed in html_body.text)
+4. Run main.py -> Console will prompt with console input to select a function
+5. Type "2" into the console and press enter. Console will output when emails successfully sent to Outlook "Outbox" folder
+6. Check Outlook "Outbox" folder to ensure that emails have been sent
+### To Compare Email Lists:
+1. Write/Paste/Load one email list into overlap1.csv
+2. Write/Paste/Load the other email list into overlap2.csv
+3. Run main.py -> Console will prompt with console input to select a function
+4. Type "3" into the console and press enter. Console will create sets based on email lists and perform set operations to calculate the difference and intersection of the sets
+5. Check "difference_set.csv" and "intersection_set.csv" to see the results
+### To Quit Program:
+1. Type "Q" or "q" into the console and press enter
 ## Email Contents:
 - Found in html_body.py class
 - HTML format
