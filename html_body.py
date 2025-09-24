@@ -9,7 +9,7 @@ class HTML_BODY:
                     <p><span style="font-size: 20px;"><b>Learning2Fly</b></span> offers field trips for <b>K-12</b>!  Every kid loves a circus, and ‘A Chakra Circus of Health’ is a field trip tailor made for <b>kindergarten</b> all the way through <b>12th grade</b>!</p>
                     <p>Parents and teachers love us because we educate, kids love us because we are FUN!</p>
                     <p><span style="font-size: 20px;"><b>Learning2Fly</b></span> educates, empowers, and inspires kids with seven lifestyle choices for mind, body, and spirit.</p>
-                    The seven habits of health in a ‘CHAKRA CIRCUS ®’ are: 
+                    The Seven Habits of Health in a ‘CHAKRA CIRCUS ®’ are: 
                     <ul>
                     <li>1 ❤️ Nutrition</li>
                     <li>2 🧡 Movement & Exercise</li>
@@ -19,6 +19,8 @@ class HTML_BODY:
                     <li>6 💜 World Harmony</li>
                     <li>7 🩷 Goodness & Wholeness</li>
                     </ul> 
+
+                    <p>We can tailor the field trip to focus on any Habit and topic in <b>your curriculum</b>!</p>
 
                     We offer two field trip opportunities, with age-appropriate activities for kids K-12:
                     <table style="border: 1px solid black; border-collapse: collapse;">
